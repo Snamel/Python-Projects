@@ -10,7 +10,7 @@ class Person:
               f"I am {self.role} and I earn {self.salery} dollars per month \n")
 
 
-class Company():
+class Company:
     def __init__(self, name, founded, humanrightsviolated):
         self.name = name
         self.founded = founded
