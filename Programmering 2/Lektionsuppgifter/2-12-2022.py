@@ -37,7 +37,7 @@ d.show()
 
 animals = [c, d]
 lines = [
-    " don't like you and proceeds to bite you to death",
+    " don't like you and proceeds to bite you too death",
     " like you a bit and let you pet him",
     " like you and show his family"
 ]
