@@ -1,13 +1,13 @@
 class Person:
-    def __init__(self, name, age, role, salery):
+    def __init__(self, name, age, role, salary):
         self.name = name
         self.age = age
         self.role = role
-        self.salery = salery
+        self.salary = salary
 
     def show(self):
         print(f"My name is {self.name} and I am {self.age} years old. "
-              f"I am {self.role} and I earn {self.salery} dollars per month \n")
+              f"I am {self.role} and I earn {self.salary} dollars per month \n")
 
 
 class Company:
@@ -17,50 +17,50 @@ class Company:
         self.humanrightsviolated = humanrightsviolated
 
     def show(self):
-        print(f"This company is called {self.name}. It was founed in {self.founded}"
+        print(f"This company is called {self.name}. It was founded in {self.founded}"
               f" and committed {self.humanrightsviolated} human rights violations last year alone! Very good."
               f" Here are the workers: \n")
 
 
 class CEO(Person):
-    def __init__(self, name, age, role, salery):
-        super().__init__(name, age, role, salery)
+    def __init__(self, name, age, role, salary):
+        super().__init__(name, age, role, salary)
         self.role = role
-        self.salery = salery
+        self.salary = salary
 
 
 class Worker:
-    def __init__(self, name, age, role, salery):
+    def __init__(self, name, age, role, salary):
         self.name = name
         self.age = age
         self.role = role
-        self.salery = salery
+        self.salary = salary
 
     def show(self):
         print(
             f"My name is {self.name} and I am {self.age} years old. I was {self.role}"
-            f" and I get {self.salery} per day. \n")
+            f" and I get {self.salary} per day. \n")
 
 
 class Assistant(Person):
-    def __init__(self, name, age, role, salery):
-        super().__init__(name, age, role, salery)
+    def __init__(self, name, age, role, salary):
+        super().__init__(name, age, role, salary)
         self.role = role
-        self.salery = salery
+        self.salary = salary
 
 
 class Intern(Person):
-    def __init__(self, name, age, role, salery):
-        super().__init__(name, age, role, salery)
+    def __init__(self, name, age, role, salary):
+        super().__init__(name, age, role, salary)
         self.role = role
-        self.salery = salery
+        self.salary = salary
 
 
 class Receptionist(Person):
-    def __init__(self, name, age, role, salery):
-        super().__init__(name, age, role, salery)
+    def __init__(self, name, age, role, salary):
+        super().__init__(name, age, role, salary)
         self.role = role
-        self.salery = salery
+        self.salary = salary
 
 
 print("\n")
