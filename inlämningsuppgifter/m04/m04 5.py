@@ -16,3 +16,4 @@ omkrets = cirkel_omkrets(radie)
 
 print(f"Area: {area}")
 print(f"Omkrets: {omkrets}")
+
