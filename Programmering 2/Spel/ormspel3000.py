@@ -37,6 +37,12 @@ clock = pygame.time.Clock()
 game_state = "menu"
 
 
+# Define the snake's starting position and size
+snake_size = 20
+snake_x = 300
+snake_y = 300
+
+
 # Get snake image
 player_image_file = "player_image.png"
 player_image = pygame.image.load(player_image_file)
@@ -47,11 +53,6 @@ fruit_image_file = "fruit_image.png"
 fruit_image = pygame.image.load(fruit_image_file)
 fruit_image = pygame.transform.scale(fruit_image, (snake_size, snake_size))
 
-
-# Define the snake's starting position and size
-snake_size = 20
-snake_x = 300
-snake_y = 300
 
 # Define the initial velocity of the snake
 velocity_x = 0
